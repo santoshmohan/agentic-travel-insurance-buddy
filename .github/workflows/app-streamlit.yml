@@ -1,0 +1,41 @@
+name: Streamlit App
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  app:
+    runs-on: ubuntu-latest
+    env:
+      NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirement.txt
+
+      - name: Verify app imports and config
+        run: |
+          python - <<'PY'
+          import os
+          print('NVIDIA_API_KEY present:', bool(os.getenv('NVIDIA_API_KEY')))
+          import app
+          print('App import OK')
+          PY
+
+      - name: Smoke test Streamlit app startup
+        run: |
+          timeout 30s streamlit run app.py --server.headless true --server.port 8501 || true

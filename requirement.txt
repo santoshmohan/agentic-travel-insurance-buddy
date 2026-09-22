@@ -11,4 +11,5 @@ python-dotenv
 sentence-transformers
 torchvision
 pytest                # PYTEST framework
+pytest-html           # HTML report generation for pytest
 tenacity
