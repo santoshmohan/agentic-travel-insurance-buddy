@@ -1,0 +1,33 @@
+[
+    {
+        "id": "q001",
+        "question": "Does TickInsurance cover lost baggage?",
+        "provider": "TickInsurance",
+        "expected_answer": "Yes, TickInsurance covers lost baggage up to \\$2,500 per person.",
+        "relevant_docs": ["tick_001", "tick_002"],
+        "relevant_keywords": ["baggage", "lost", "cover", "2500"],
+        "difficulty": "easy",
+        "ground_truth_chunks": ["chunk_001", "chunk_104"]
+    },
+    {
+        "id": "q002",
+        "question": "What is the medical evacuation limit for TickInsurance?",
+        "provider": "TickInsurance",
+        "expected_answer": "TickInsurance provides up to \\$500,000 for medical evacuation.",
+        "relevant_docs": ["tick_010"],
+        "relevant_keywords": ["medical evacuation", "500000", "limit"],
+        "difficulty": "medium",
+        "ground_truth_chunks": ["chunk_103", "chunk_104"]
+    },
+    {
+        "id": "q003",
+        "question": "Are pre-existing conditions covered?",
+        "provider": "All",
+        "expected_answer": "Coverage for pre-existing conditions varies by provider and plan.",
+        "relevant_docs": ["tick_020", "gen_005", "gen_006"],
+        "relevant_keywords": ["pre-existing", "condition", "covered", "excluded"],
+        "difficulty": "hard",
+        "ground_truth_chunks": ["chunk_205"]
+
+    }
+]

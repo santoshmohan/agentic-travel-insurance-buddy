@@ -1,0 +1,394 @@
+2026-09-22 12:11:27 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 12:11:37 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 12:11:37 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 12:11:37 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 12:11:37 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 12:11:37 UTC | INFO     | __main__ | Starting Travel Insurance Buddy app
+2026-09-22 12:11:37 UTC | INFO     | __main__ | Starting Travel Insurance Buddy app
+2026-09-22 12:11:37 UTC | INFO     | __main__ | Starting Travel Insurance Buddy app
+2026-09-22 12:11:37 UTC | INFO     | __main__ | Starting Travel Insurance Buddy app
+2026-09-22 12:11:37 UTC | INFO     | src.loader | Provider directories : ['TickInsurance', '1Cover', 'Allianz']
+2026-09-22 12:11:37 UTC | INFO     | src.loader | Provider directories : ['TickInsurance', '1Cover', 'Allianz']
+2026-09-22 12:11:37 UTC | INFO     | src.loader | Provider directories : ['TickInsurance', '1Cover', 'Allianz']
+2026-09-22 12:11:37 UTC | INFO     | src.loader | Provider directories : ['TickInsurance', '1Cover', 'Allianz']
+2026-09-22 12:11:45 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 12:11:45 UTC | INFO     | __main__ | Starting Travel Insurance Buddy app
+2026-09-22 12:11:45 UTC | INFO     | src.loader | Provider directories : ['TickInsurance', '1Cover', 'Allianz']
+2026-09-22 12:11:47 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 12:11:47 UTC | INFO     | __main__ | Starting Travel Insurance Buddy app
+2026-09-22 12:11:47 UTC | INFO     | src.loader | Provider directories : ['TickInsurance', '1Cover', 'Allianz']
+2026-09-22 12:11:47 UTC | INFO     | src.vectorstore | Loading FAISS index...
+2026-09-22 12:11:47 UTC | INFO     | src.vectorstore | Getting Embeddings for model: sentence-transformers/all-MiniLM-L6-v2
+2026-09-22 12:11:47 UTC | INFO     | sentence_transformers.base.model | No device provided, using mps
+2026-09-22 12:11:47 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 12:11:47 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-09-22 12:11:47 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 12:11:47 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-09-22 12:11:47 UTC | INFO     | sentence_transformers.base.model | Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-09-22 12:11:47 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 12:11:47 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-09-22 12:11:48 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 12:11:48 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2FREADME.md=&etag=%2244af2e3b0fa3a0b6239e48422972bf755f28fde0%22 "HTTP/1.1 200 OK"
+2026-09-22 12:11:48 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 12:11:48 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-09-22 12:11:48 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 12:11:48 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fsentence_bert_config.json=&etag=%2259d594003bf59880a884c574bf88ef7555bb0202%22 "HTTP/1.1 200 OK"
+2026-09-22 12:11:49 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-09-22 12:11:49 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 12:11:49 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig.json=&etag=%2272b987fd805cfa2b58c4c8c952b274a11bfd5a00%22 "HTTP/1.1 200 OK"
+2026-09-22 12:11:49 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-09-22 12:11:50 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-09-22 12:11:50 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-09-22 12:11:50 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-09-22 12:11:50 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 12:11:50 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Ftokenizer_config.json=&etag=%22c79f2b6a0cea6f4b564fed1938984bace9d30ff0%22 "HTTP/1.1 200 OK"
+2026-09-22 12:11:51 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 12:11:51 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig.json=&etag=%2272b987fd805cfa2b58c4c8c952b274a11bfd5a00%22 "HTTP/1.1 200 OK"
+2026-09-22 12:11:51 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 12:11:51 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig.json=&etag=%2272b987fd805cfa2b58c4c8c952b274a11bfd5a00%22 "HTTP/1.1 200 OK"
+2026-09-22 12:11:51 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 12:11:51 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Ftokenizer_config.json=&etag=%22c79f2b6a0cea6f4b564fed1938984bace9d30ff0%22 "HTTP/1.1 200 OK"
+2026-09-22 12:11:51 UTC | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-09-22 12:11:52 UTC | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-09-22 12:11:52 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 12:11:52 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2F1_Pooling%2Fconfig.json=&etag=%22d1514c3162bbe87b343f565fadc62e6c06f04f03%22 "HTTP/1.1 200 OK"
+2026-09-22 12:11:52 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-09-22 12:11:52 UTC | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-09-22 12:11:53 UTC | INFO     | src.vectorstore | Get Embeddings for model successful
+2026-09-22 12:11:53 UTC | INFO     | faiss.loader | Loading faiss.
+2026-09-22 12:11:53 UTC | INFO     | faiss.loader | Successfully loaded faiss.
+2026-09-22 12:11:53 UTC | INFO     | src.vectorstore | Loading FAISS index successful
+2026-09-22 12:12:05 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 12:12:05 UTC | INFO     | __main__ | Starting Travel Insurance Buddy app
+2026-09-22 12:12:05 UTC | INFO     | src.loader | Provider directories : ['TickInsurance', '1Cover', 'Allianz']
+2026-09-22 12:12:05 UTC | INFO     | __main__ | User submitted question=Does TickInsurance cover lost baggage? | provider=TickInsurance | method=hybrid | k=4
+2026-09-22 12:12:05 UTC | INFO     | src.chains | answer_question called | provider=TickInsurance | k=4 | method=hybrid | question=Does TickInsurance cover lost baggage?
+2026-09-22 12:12:05 UTC | INFO     | src.retrieval | Retriever initialized | has_bm25=False
+2026-09-22 12:12:05 UTC | WARNING  | src.retrieval | BM25 retriever not initialized, using semantic only
+2026-09-22 12:12:06 UTC | INFO     | src.retrieval | semantic_retrieval complete | returned=4 | provider=TickInsurance
+2026-09-22 12:12:06 UTC | INFO     | src.chains | retrieval complete | docs=4 | retrieval_time=1.028s | method=hybrid
+2026-09-22 12:12:06 UTC | INFO     | src.chains | Choosen model nvidia/nemotron-3.5-lightning-30b-a3b
+2026-09-22 12:12:06 UTC | INFO     | src.chains | LLM initialsed successfully
+2026-09-22 12:13:52 UTC | INFO     | src.chains | LLM response complete | llm_time=105.818s | total_time=107.476s
+2026-09-22 12:13:52 UTC | INFO     | __main__ | Question answered | method=hybrid | latency_ms=0.0
+2026-09-22 12:19:53 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 12:19:53 UTC | INFO     | __main__ | Starting Travel Insurance Buddy app
+2026-09-22 12:19:53 UTC | INFO     | src.loader | Provider directories : ['TickInsurance', '1Cover', 'Allianz']
+2026-09-22 12:20:59 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 12:20:59 UTC | INFO     | __main__ | Starting Travel Insurance Buddy app
+2026-09-22 12:20:59 UTC | INFO     | src.loader | Provider directories : ['TickInsurance', '1Cover', 'Allianz']
+2026-09-22 12:21:00 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 12:21:00 UTC | INFO     | __main__ | Starting Travel Insurance Buddy app
+2026-09-22 12:21:00 UTC | INFO     | src.loader | Provider directories : ['TickInsurance', '1Cover', 'Allianz']
+2026-09-22 13:19:09 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 13:19:09 UTC | INFO     | __main__ | Starting Travel Insurance Buddy app
+2026-09-22 13:19:09 UTC | INFO     | src.loader | Provider directories : ['TickInsurance', '1Cover', 'Allianz']
+2026-09-22 13:19:14 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 13:19:14 UTC | INFO     | __main__ | Starting Travel Insurance Buddy app
+2026-09-22 13:19:14 UTC | INFO     | src.loader | Provider directories : ['TickInsurance', '1Cover', 'Allianz']
+2026-09-22 13:19:14 UTC | INFO     | src.vectorstore | Loading FAISS index...
+2026-09-22 13:19:14 UTC | INFO     | src.vectorstore | Getting Embeddings for model: sentence-transformers/all-MiniLM-L6-v2
+2026-09-22 13:19:14 UTC | INFO     | sentence_transformers.base.model | No device provided, using mps
+2026-09-22 13:19:14 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:19:14 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-09-22 13:19:15 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:19:15 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-09-22 13:19:15 UTC | INFO     | sentence_transformers.base.model | Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-09-22 13:19:15 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:19:15 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-09-22 13:19:15 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:19:15 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2FREADME.md=&etag=%2244af2e3b0fa3a0b6239e48422972bf755f28fde0%22 "HTTP/1.1 200 OK"
+2026-09-22 13:19:15 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:19:15 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-09-22 13:19:16 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:19:16 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fsentence_bert_config.json=&etag=%2259d594003bf59880a884c574bf88ef7555bb0202%22 "HTTP/1.1 200 OK"
+2026-09-22 13:19:16 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-09-22 13:19:16 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:19:16 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig.json=&etag=%2272b987fd805cfa2b58c4c8c952b274a11bfd5a00%22 "HTTP/1.1 200 OK"
+2026-09-22 13:19:16 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-09-22 13:19:17 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-09-22 13:19:17 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-09-22 13:19:17 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-09-22 13:19:17 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:19:17 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Ftokenizer_config.json=&etag=%22c79f2b6a0cea6f4b564fed1938984bace9d30ff0%22 "HTTP/1.1 200 OK"
+2026-09-22 13:19:18 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:19:18 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig.json=&etag=%2272b987fd805cfa2b58c4c8c952b274a11bfd5a00%22 "HTTP/1.1 200 OK"
+2026-09-22 13:19:18 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:19:18 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig.json=&etag=%2272b987fd805cfa2b58c4c8c952b274a11bfd5a00%22 "HTTP/1.1 200 OK"
+2026-09-22 13:19:18 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:19:18 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Ftokenizer_config.json=&etag=%22c79f2b6a0cea6f4b564fed1938984bace9d30ff0%22 "HTTP/1.1 200 OK"
+2026-09-22 13:19:18 UTC | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-09-22 13:19:19 UTC | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-09-22 13:19:19 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:19:19 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2F1_Pooling%2Fconfig.json=&etag=%22d1514c3162bbe87b343f565fadc62e6c06f04f03%22 "HTTP/1.1 200 OK"
+2026-09-22 13:19:19 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-09-22 13:19:20 UTC | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-09-22 13:19:20 UTC | INFO     | src.vectorstore | Get Embeddings for model successful
+2026-09-22 13:19:20 UTC | INFO     | faiss.loader | Loading faiss.
+2026-09-22 13:19:20 UTC | INFO     | faiss.loader | Successfully loaded faiss.
+2026-09-22 13:19:20 UTC | INFO     | src.vectorstore | Loading FAISS index successful
+2026-09-22 13:19:48 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 13:19:48 UTC | INFO     | __main__ | Starting Travel Insurance Buddy app
+2026-09-22 13:19:48 UTC | INFO     | src.loader | Provider directories : ['TickInsurance', '1Cover', 'Allianz']
+2026-09-22 13:19:48 UTC | INFO     | __main__ | User submitted question=What exclusions apply to medical claims under 1Cover? | provider=All | method=hybrid | k=4
+2026-09-22 13:19:48 UTC | INFO     | src.chains | answer_question called | provider=All | k=4 | method=hybrid | question=What exclusions apply to medical claims under 1Cover?
+2026-09-22 13:19:48 UTC | INFO     | src.retrieval | Retriever initialized | has_bm25=False
+2026-09-22 13:19:48 UTC | WARNING  | src.retrieval | BM25 retriever not initialized, using semantic only
+2026-09-22 13:19:49 UTC | INFO     | src.retrieval | semantic_retrieval complete | returned=4 | provider=All
+2026-09-22 13:19:49 UTC | INFO     | src.chains | retrieval complete | docs=4 | retrieval_time=1.353s | method=hybrid
+2026-09-22 13:19:49 UTC | INFO     | src.chains | Choosen model nvidia/nemotron-3.5-lightning-30b-a3b
+2026-09-22 13:19:50 UTC | INFO     | src.chains | LLM initialsed successfully
+2026-09-22 13:21:50 UTC | ERROR    | src.chains | answer_question failed | provider=All | question=What exclusions apply to medical claims under 1Cover?
+Traceback (most recent call last):
+  File "/Users/sid/Sandbox/agentic-travel-insurance-buddy/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py", line 540, in _make_request
+    response = conn.getresponse()
+  File "/Users/sid/Sandbox/agentic-travel-insurance-buddy/.venv/lib/python3.14/site-packages/urllib3/connection.py", line 638, in getresponse
+    httplib_response = super().getresponse()
+  File "/Users/sid/.local/share/uv/python/cpython-3.14-macos-aarch64-none/lib/python3.14/http/client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/Users/sid/.local/share/uv/python/cpython-3.14-macos-aarch64-none/lib/python3.14/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/Users/sid/.local/share/uv/python/cpython-3.14-macos-aarch64-none/lib/python3.14/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/sid/.local/share/uv/python/cpython-3.14-macos-aarch64-none/lib/python3.14/socket.py", line 725, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/Users/sid/.local/share/uv/python/cpython-3.14-macos-aarch64-none/lib/python3.14/ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/sid/.local/share/uv/python/cpython-3.14-macos-aarch64-none/lib/python3.14/ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/sid/Sandbox/agentic-travel-insurance-buddy/.venv/lib/python3.14/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/Users/sid/Sandbox/agentic-travel-insurance-buddy/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Users/sid/Sandbox/agentic-travel-insurance-buddy/.venv/lib/python3.14/site-packages/urllib3/util/retry.py", line 510, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sid/Sandbox/agentic-travel-insurance-buddy/.venv/lib/python3.14/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/Users/sid/Sandbox/agentic-travel-insurance-buddy/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Users/sid/Sandbox/agentic-travel-insurance-buddy/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py", line 542, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sid/Sandbox/agentic-travel-insurance-buddy/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py", line 373, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='integrate.api.nvidia.com', port=443): Read timed out. (read timeout=120.0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sid/Sandbox/agentic-travel-insurance-buddy/src/chains.py", line 124, in answer_question
+    response = chain.invoke({
+        "provider": provider,
+        "question": question,
+        "context": context
+    })
+  File "/Users/sid/Sandbox/agentic-travel-insurance-buddy/.venv/lib/python3.14/site-packages/langchain_core/runnables/base.py", line 3456, in invoke
+    input_ = context.run(step.invoke, input_, config)
+  File "/Users/sid/Sandbox/agentic-travel-insurance-buddy/.venv/lib/python3.14/site-packages/langchain_core/language_models/chat_models.py", line 488, in invoke
+    self.generate_prompt(
+    ~~~~~~~~~~~~~~~~~~~~^
+        [self._convert_input(input)],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ).generations[0][0],
+    ^
+  File "/Users/sid/Sandbox/agentic-travel-insurance-buddy/.venv/lib/python3.14/site-packages/langchain_core/language_models/chat_models.py", line 1877, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sid/Sandbox/agentic-travel-insurance-buddy/.venv/lib/python3.14/site-packages/langchain_core/language_models/chat_models.py", line 1684, in generate
+    self._generate_with_cache(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        m,
+        ^^
+    ...<2 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/Users/sid/Sandbox/agentic-travel-insurance-buddy/.venv/lib/python3.14/site-packages/langchain_core/language_models/chat_models.py", line 2022, in _generate_with_cache
+    result = self._generate(
+        messages, stop=stop, run_manager=run_manager, **kwargs
+    )
+  File "/Users/sid/Sandbox/agentic-travel-insurance-buddy/.venv/lib/python3.14/site-packages/langchain_nvidia_ai_endpoints/chat_models.py", line 706, in _generate
+    response = self._client.get_req(payload=payload, extra_headers=extra_headers)
+  File "/Users/sid/Sandbox/agentic-travel-insurance-buddy/.venv/lib/python3.14/site-packages/langchain_nvidia_ai_endpoints/_common.py", line 612, in get_req
+    response, session = self._post(
+                        ~~~~~~~~~~^
+        self.infer_url, payload, extra_headers=extra_headers
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/sid/Sandbox/agentic-travel-insurance-buddy/.venv/lib/python3.14/site-packages/langchain_nvidia_ai_endpoints/_common.py", line 417, in _post
+    self.last_response = response = session.post(
+                                    ~~~~~~~~~~~~^
+        **self._add_authorization(self.last_inputs),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        timeout=self.timeout,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/sid/Sandbox/agentic-travel-insurance-buddy/.venv/lib/python3.14/site-packages/requests/sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sid/Sandbox/agentic-travel-insurance-buddy/.venv/lib/python3.14/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/sid/Sandbox/agentic-travel-insurance-buddy/.venv/lib/python3.14/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/sid/Sandbox/agentic-travel-insurance-buddy/.venv/lib/python3.14/site-packages/requests/adapters.py", line 742, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='integrate.api.nvidia.com', port=443): Read timed out. (read timeout=120.0)
+2026-09-22 13:27:06 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 13:27:06 UTC | INFO     | __main__ | Starting Travel Insurance Buddy app
+2026-09-22 13:27:06 UTC | INFO     | src.loader | Provider directories : ['TickInsurance', '1Cover', 'Allianz']
+2026-09-22 13:27:10 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 13:27:10 UTC | INFO     | __main__ | Starting Travel Insurance Buddy app
+2026-09-22 13:27:10 UTC | INFO     | src.loader | Provider directories : ['TickInsurance', '1Cover', 'Allianz']
+2026-09-22 13:27:15 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 13:27:15 UTC | INFO     | __main__ | Starting Travel Insurance Buddy app
+2026-09-22 13:27:15 UTC | INFO     | src.loader | Provider directories : ['TickInsurance', '1Cover', 'Allianz']
+2026-09-22 13:27:16 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 13:27:16 UTC | INFO     | __main__ | Starting Travel Insurance Buddy app
+2026-09-22 13:27:16 UTC | INFO     | src.loader | Provider directories : ['TickInsurance', '1Cover', 'Allianz']
+2026-09-22 13:27:17 UTC | INFO     | src.vectorstore | Loading FAISS index...
+2026-09-22 13:27:17 UTC | INFO     | src.vectorstore | Getting Embeddings for model: sentence-transformers/all-MiniLM-L6-v2
+2026-09-22 13:27:17 UTC | INFO     | sentence_transformers.base.model | No device provided, using mps
+2026-09-22 13:27:17 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:27:17 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-09-22 13:27:17 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:27:17 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-09-22 13:27:17 UTC | INFO     | sentence_transformers.base.model | Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-09-22 13:27:17 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:27:17 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-09-22 13:27:18 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:27:18 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2FREADME.md=&etag=%2244af2e3b0fa3a0b6239e48422972bf755f28fde0%22 "HTTP/1.1 200 OK"
+2026-09-22 13:27:18 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:27:18 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-09-22 13:27:18 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:27:18 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fsentence_bert_config.json=&etag=%2259d594003bf59880a884c574bf88ef7555bb0202%22 "HTTP/1.1 200 OK"
+2026-09-22 13:27:19 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-09-22 13:27:19 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:27:19 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig.json=&etag=%2272b987fd805cfa2b58c4c8c952b274a11bfd5a00%22 "HTTP/1.1 200 OK"
+2026-09-22 13:27:19 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-09-22 13:27:19 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-09-22 13:27:20 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-09-22 13:27:20 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-09-22 13:27:20 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:27:20 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Ftokenizer_config.json=&etag=%22c79f2b6a0cea6f4b564fed1938984bace9d30ff0%22 "HTTP/1.1 200 OK"
+2026-09-22 13:27:21 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:27:21 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig.json=&etag=%2272b987fd805cfa2b58c4c8c952b274a11bfd5a00%22 "HTTP/1.1 200 OK"
+2026-09-22 13:27:21 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:27:21 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig.json=&etag=%2272b987fd805cfa2b58c4c8c952b274a11bfd5a00%22 "HTTP/1.1 200 OK"
+2026-09-22 13:27:21 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:27:21 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Ftokenizer_config.json=&etag=%22c79f2b6a0cea6f4b564fed1938984bace9d30ff0%22 "HTTP/1.1 200 OK"
+2026-09-22 13:27:21 UTC | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-09-22 13:27:22 UTC | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-09-22 13:27:22 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:27:22 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2F1_Pooling%2Fconfig.json=&etag=%22d1514c3162bbe87b343f565fadc62e6c06f04f03%22 "HTTP/1.1 200 OK"
+2026-09-22 13:27:22 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-09-22 13:27:22 UTC | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-09-22 13:27:23 UTC | INFO     | src.vectorstore | Get Embeddings for model successful
+2026-09-22 13:27:23 UTC | INFO     | faiss.loader | Loading faiss.
+2026-09-22 13:27:23 UTC | INFO     | faiss.loader | Successfully loaded faiss.
+2026-09-22 13:27:23 UTC | INFO     | src.vectorstore | Loading FAISS index successful
+2026-09-22 13:27:33 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 13:27:33 UTC | INFO     | __main__ | Starting Travel Insurance Buddy app
+2026-09-22 13:27:33 UTC | INFO     | src.loader | Provider directories : ['TickInsurance', '1Cover', 'Allianz']
+2026-09-22 13:27:33 UTC | INFO     | __main__ | User submitted question=What exclusions apply to medical claims under 1Cover? | provider=1Cover | method=hybrid | k=4
+2026-09-22 13:27:33 UTC | INFO     | src.chains | answer_question called | provider=1Cover | k=4 | method=hybrid | question=What exclusions apply to medical claims under 1Cover?
+2026-09-22 13:27:33 UTC | INFO     | src.retrieval | Retriever initialized | has_bm25=False
+2026-09-22 13:27:33 UTC | WARNING  | src.retrieval | BM25 retriever not initialized, using semantic only
+2026-09-22 13:27:34 UTC | INFO     | src.retrieval | semantic_retrieval complete | returned=2 | provider=1Cover
+2026-09-22 13:27:34 UTC | INFO     | src.chains | retrieval complete | docs=2 | retrieval_time=0.862s | method=hybrid
+2026-09-22 13:27:34 UTC | INFO     | src.chains | Choosen model nvidia/nemotron-3.5-lightning-30b-a3b
+2026-09-22 13:27:34 UTC | INFO     | src.chains | LLM initialsed successfully
+2026-09-22 13:30:49 UTC | INFO     | src.chains | LLM response complete | llm_time=194.706s | total_time=196.064s
+2026-09-22 13:30:49 UTC | INFO     | __main__ | Question answered | method=hybrid | latency_ms=196063.9
+2026-09-22 13:35:26 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 13:35:26 UTC | INFO     | __main__ | Starting Travel Insurance Buddy app
+2026-09-22 13:35:26 UTC | INFO     | src.loader | Provider directories : ['TickInsurance', '1Cover', 'Allianz']
+2026-09-22 13:35:32 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 13:35:32 UTC | INFO     | __main__ | Starting Travel Insurance Buddy app
+2026-09-22 13:35:32 UTC | INFO     | src.loader | Provider directories : ['TickInsurance', '1Cover', 'Allianz']
+2026-09-22 13:35:34 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 13:35:34 UTC | INFO     | __main__ | Starting Travel Insurance Buddy app
+2026-09-22 13:35:34 UTC | INFO     | src.loader | Provider directories : ['TickInsurance', '1Cover', 'Allianz']
+2026-09-22 13:35:34 UTC | INFO     | src.vectorstore | Loading FAISS index...
+2026-09-22 13:35:34 UTC | INFO     | src.vectorstore | Getting Embeddings for model: sentence-transformers/all-MiniLM-L6-v2
+2026-09-22 13:35:34 UTC | INFO     | sentence_transformers.base.model | No device provided, using mps
+2026-09-22 13:35:34 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:35:34 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-09-22 13:35:34 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:35:34 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-09-22 13:35:34 UTC | INFO     | sentence_transformers.base.model | Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-09-22 13:35:34 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:35:34 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-09-22 13:35:35 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:35:35 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2FREADME.md=&etag=%2244af2e3b0fa3a0b6239e48422972bf755f28fde0%22 "HTTP/1.1 200 OK"
+2026-09-22 13:35:35 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:35:35 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-09-22 13:35:35 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:35:35 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fsentence_bert_config.json=&etag=%2259d594003bf59880a884c574bf88ef7555bb0202%22 "HTTP/1.1 200 OK"
+2026-09-22 13:35:36 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-09-22 13:35:36 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:35:36 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig.json=&etag=%2272b987fd805cfa2b58c4c8c952b274a11bfd5a00%22 "HTTP/1.1 200 OK"
+2026-09-22 13:35:36 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-09-22 13:35:37 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-09-22 13:35:37 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-09-22 13:35:37 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-09-22 13:35:38 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:35:38 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Ftokenizer_config.json=&etag=%22c79f2b6a0cea6f4b564fed1938984bace9d30ff0%22 "HTTP/1.1 200 OK"
+2026-09-22 13:35:38 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:35:38 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig.json=&etag=%2272b987fd805cfa2b58c4c8c952b274a11bfd5a00%22 "HTTP/1.1 200 OK"
+2026-09-22 13:35:38 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:35:38 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig.json=&etag=%2272b987fd805cfa2b58c4c8c952b274a11bfd5a00%22 "HTTP/1.1 200 OK"
+2026-09-22 13:35:38 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:35:38 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Ftokenizer_config.json=&etag=%22c79f2b6a0cea6f4b564fed1938984bace9d30ff0%22 "HTTP/1.1 200 OK"
+2026-09-22 13:35:39 UTC | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-09-22 13:35:39 UTC | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-09-22 13:35:39 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-22 13:35:39 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2F1_Pooling%2Fconfig.json=&etag=%22d1514c3162bbe87b343f565fadc62e6c06f04f03%22 "HTTP/1.1 200 OK"
+2026-09-22 13:35:39 UTC | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-09-22 13:35:40 UTC | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-09-22 13:35:40 UTC | INFO     | src.vectorstore | Get Embeddings for model successful
+2026-09-22 13:35:40 UTC | INFO     | faiss.loader | Loading faiss.
+2026-09-22 13:35:40 UTC | INFO     | faiss.loader | Successfully loaded faiss.
+2026-09-22 13:35:40 UTC | INFO     | src.vectorstore | Loading FAISS index successful
+2026-09-22 13:35:47 UTC | INFO     | root | Logging initialized | log_file=logs/app_2026-09-22.log | level=INFO
+2026-09-22 13:35:47 UTC | INFO     | __main__ | Starting Travel Insurance Buddy app
+2026-09-22 13:35:47 UTC | INFO     | src.loader | Provider directories : ['TickInsurance', '1Cover', 'Allianz']
+2026-09-22 13:35:47 UTC | INFO     | __main__ | User submitted question=What exclusions apply to medical claims under 1Cover? | provider=1Cover | method=hybrid | k=4
+2026-09-22 13:35:47 UTC | INFO     | src.chains | answer_question called | provider=1Cover | k=4 | method=hybrid | question=What exclusions apply to medical claims under 1Cover?
+2026-09-22 13:35:47 UTC | INFO     | src.retrieval | Retriever initialized | has_bm25=False
+2026-09-22 13:35:47 UTC | WARNING  | src.retrieval | BM25 retriever not initialized, using semantic only
+2026-09-22 13:35:48 UTC | INFO     | src.retrieval | semantic_retrieval complete | returned=2 | provider=1Cover
+2026-09-22 13:35:48 UTC | INFO     | src.chains | retrieval complete | docs=2 | retrieval_time=0.785s | method=hybrid
+2026-09-22 13:35:48 UTC | INFO     | src.chains | Choosen model nvidia/nemotron-3.5-lightning-30b-a3b
+2026-09-22 13:35:49 UTC | INFO     | src.chains | LLM initialsed successfully
+2026-09-22 13:38:42 UTC | INFO     | src.chains | LLM response complete | llm_time=173.161s | total_time=174.593s
+2026-09-22 13:38:42 UTC | INFO     | __main__ | Question answered | method=hybrid | latency_ms=174592.7
