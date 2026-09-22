@@ -2,9 +2,9 @@ import unittest
 import logging
 from typing import List, Dict, Any
 
-from eval.metrics import RetrievalMetrics, EvalResults
-from eval.golden_dataset import GoldenDataset
-from eval.config import CHUNKING_STRATEGIES, RETRIEVER_METHODS
+from evals.metrics import RetrievalMetrics, EvalResults
+from evals.golden_dataset import GoldenDataset
+from evals.config import CHUNKING_STRATEGIES, RETRIEVER_METHODS
 
 logger = logging.getLogger(__name__)
 
